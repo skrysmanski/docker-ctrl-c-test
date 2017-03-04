@@ -1,6 +1,8 @@
 Allows you to test whether a foreground Docker container can be killed with Ctrl+C on your system.
 
-Youmay use this image if Ctrl+C is not working with a container and you're in doubt whether
+It does this by continuously pinging localhost from inside the container.
+
+You may use this image if Ctrl+C is not working with a container and you're in doubt whether
 Ctrl+C works in general.
 
 Build with:
