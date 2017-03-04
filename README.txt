@@ -7,11 +7,11 @@ Ctrl+C works in general.
 
 Build with:
 
-  docker build -t ctrl-c-test .
+  docker build -t krys/ctrl-c-test .
 
 Run with:
 
-  docker run --rm -ti ctrl-c-test
+  docker run --rm -ti krys/ctrl-c-test
 
 The container will not exit until you press Ctrl+C (or use
 docker stop, of course).
