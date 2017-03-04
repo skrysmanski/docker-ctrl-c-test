@@ -1,6 +1,4 @@
-FROM krys/ubuntu-base
-
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends iputils-ping
+FROM alpine
 
 COPY docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
